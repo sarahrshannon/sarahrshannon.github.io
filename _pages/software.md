@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /software/
-title: software 
+title: software development 
 description: academic software development
 nav: true
 ---
