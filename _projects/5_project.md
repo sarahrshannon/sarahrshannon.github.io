@@ -6,13 +6,12 @@ img: assets/img/karez_town.png
 importance: 3
 category: work
 ---
-
-This was a fun project I did during lockdown 2020 to learn how convolutional neural networks (CNNs) could be used for binary classification using [TensorFlow](https://www.tensorflow.org/). 
+This was a personal project to use convolutional neural networks (CNNs) for binary image classification using [TensorFlow](https://www.tensorflow.org/). 
 Karez or Qanat are ancient hand dug irrigation tunnels that have been used for thousands of years to transport groundwater over long distances in semi-arid regions. They are constructed by digging a gentle down sloping tunnel underground so that water can flow under gravity. The technique minimises water loss though evaporation and does not require any electrical pumping of ground water reserves, making the tunnels a sustainable source of water supply.   Air flow over the wells can be used to cool houses and buildings.
 The tunnels are still used today for irrigation and domestic water supply in some regions of the world, although many have fallen into a state of disrepair. The tunnels are mostly found in countries along the old silk road, particularly in Afghanistan, Iran and Uzbekistan. 
 Access to the tunnel is via a series of well-like vertical shafts which can be seen by satellite as a line of equally spaced circles. 
 
-To create training and validation images, I visually selected Karez using free 1m satellite imagery from the [OrbView-3](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-commercial-satellites-orbview-3) commercial satellite data (from USGS). I then adapted TensorFlow example code to identify [hot dogs/not hot dogs](https://www.machinecurve.com/index.php/2020/10/20/tutorial-building-a-hot-dog-not-hot-dog-classifier-with-tensorflow-and-keras/) to train and test the CNN. I used 2960 training images and 740 validation images. The training data was augmented using ImageDataGenerator.
+To create training and validation data, I visually selected Karez images using free 1m satellite imagery from the [OrbView-3](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-commercial-satellites-orbview-3) commercial satellite data (from USGS). I then adapted TensorFlow example code to identify [hot dogs/not hot dogs](https://www.machinecurve.com/index.php/2020/10/20/tutorial-building-a-hot-dog-not-hot-dog-classifier-with-tensorflow-and-keras/) to train and test the CNN. I used 2960 training images and 740 validation images. The training data was augmented using ImageDataGenerator.
 
 
 
