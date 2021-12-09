@@ -1,7 +1,7 @@
 ---
 layout: page
 title: desert dust
-description: modelling emissions and transport of desert dust <br>      
+description: modelling emissions and transport of desert dust    
 img: assets/img/dust_storm.jpg
 importance: 3
 category: work
@@ -16,7 +16,7 @@ category: work
     </div>   
 </div>
 <div class="caption">
-    Left: Dust source area calculated using the FPAR and soil moisture simulated by the Lund-Potstdam-Jena dynamic vegetation model. Right: Dust emissions calculated by modleling saltation and sandblasting. 
+    Left: Dust source area calculated using the FPAR and soil moisture simulated by the Lund-Potstdam-Jena dynamic vegetation model. Right: Dust emissions calculated by modelling saltation and sandblasting. 
 </div>
 
 
@@ -29,7 +29,7 @@ category: work
     </div>   
 </div>
 <div class="caption">
-    Left: Modelled summer and winter dust concentrations. A wet and dry dust deposition scheme was added to the TOMCAT chemical transport model. Right) Observed TOMS aerosol optical depth.   
+    Left: Modelled summer and winter dust concentrations. A summer Saharan dust plume is visible. A wet and dry dust deposition scheme was added to the TOMCAT chemical transport model. Right) Observed TOMS aerosol optical depth.   
 </div>
 
 
