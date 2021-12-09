@@ -4,7 +4,7 @@ title: research
 permalink: /research/
 description: academic research areas
 nav: true
-display_categories: [work, fun]
+display_categories: [work]
 order: 1
 horizontal: false
 ---

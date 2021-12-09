@@ -1,7 +1,7 @@
 ---
 layout: page
 title: desert dust
-description: modelling emisisions and transport of desert dust 
+description: modelling emissions and transport of desert dust <br>      
 img: assets/img/dust_storm.jpg
 importance: 3
 category: work

@@ -47,7 +47,7 @@ Sea-level rise projections from the Greenland ice sheet which includes meltwater
 I contributed JULES glacier volume loss experiments to the [Glacier Model Inter-Comparison Project]( https://www.climate-cryosphere.org/mips/glaciermip) (GlacierMIP2). This was a coordinated intercomparison of global-scale glacier mass change models to foster model improvements and reduce uncertainties in global glacier projections. 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-6 mt-3 mt-md-0">
         {% responsive_image path: assets/img/glaciermip_paper.png title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
     
