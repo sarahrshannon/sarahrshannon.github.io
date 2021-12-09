@@ -5,6 +5,7 @@ permalink: /research/
 description: academic research areas
 nav: true
 display_categories: [work, fun]
+order: 1
 horizontal: false
 ---
 <div class="projects">

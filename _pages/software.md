@@ -4,6 +4,7 @@ permalink: /software/
 title: software development 
 description: academic software development
 nav: true
+order: 3
 ---
 
 Developed a degree day snow and glacier melt model for the Dynamic fluxEs and ConnectIvity for Predictions of HydRology ([DECIPHeR](https://gmd.copernicus.org/articles/12/2285/2019/)).   
