@@ -26,9 +26,7 @@ The work was for the [High-End Climate Impacts and Extremes (HELIX) project](htt
 <br />
 <br />
 
-For the [ice2sea](https://cordis.europa.eu/project/id/226375/reporting) project I developed a meltwater lubrication parameterisation for the Greenland ice sheet. 
-
-The scheme was used by four ice sheet modelling groups to estimate the impact of meltwater-enhanced lubrication on future sea-level rise.    
+For the [ice2sea](https://cordis.europa.eu/project/id/226375/reporting) project, I developed a meltwater lubrication parameterisation for the Greenland ice sheet. The scheme was used by four ice sheet modelling groups to estimate the impact of meltwater-enhanced lubrication on future sea-level rise.    
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
