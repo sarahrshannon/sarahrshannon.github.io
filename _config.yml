@@ -7,12 +7,8 @@ first_name: Sarah
 middle_name: R.
 last_name: Shannon
 email: sarah.shannon@bristol.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Sarah Shannon climate scientist.
-#footer_text: >
- # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> 
-  #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  
+description: Personal website for Sarah Shannon climate scientist | expertise in modelling glaciers, river flow and sea-level rise
+tagline: Personal website for Sarah Shannon climate scientist | expertise in modelling glaciers, river flow and sea-level rise   
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:  # the emoji used as the favicon
@@ -21,6 +17,19 @@ baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
+twitter:
+  username: ShannonClimate
+  card: summary
+ 
+author:
+  twitter: ShannonClimate
+  
+social:
+  name: Sarah Shannon
+  links:
+    - https://twitter.com/ShannonClimate
+    - https://www.linkedin.com/in/sarahrshannon
+      
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
@@ -50,18 +59,18 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: #sarahrshannon 
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+twitter_username: #ShannonClimate
+linkedin_username: #sarah_shannon@yahoo.com
+scholar_userid: https://scholar.google.com/citations?hl=en&user=lj3rVpQAAAAJ
+orcid_id: #0000-0002-7644-2724
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: #https://www.researchgate.net/profile/Sarah-Shannon-9
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://www.bristol.ac.uk/people/person/Sarah-Shannon-e8dd6d37-eb20-4fb9-b6d6-948a2126d138/
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -150,6 +159,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
+  - jekyll-seo-tag
   - jemoji
 
 # Sitemap settings
