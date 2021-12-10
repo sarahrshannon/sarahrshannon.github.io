@@ -13,7 +13,7 @@ Here I calculate [ETCCDI](http://etccdi.pacificclimate.org/) climate change dete
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/peru_index.jpg title: "Peru Index" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/peru_index.jpg title: "ETCCDI climate change detection indices" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

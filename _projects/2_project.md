@@ -13,10 +13,10 @@ The work was for the [High-End Climate Impacts and Extremes (HELIX) project](htt
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/helix_vol_loss.jpeg title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/helix_vol_loss.jpeg title: "Glacier loss predictions using CMIP5 models downscaled using HadGEM3" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/jules_slr.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/jules_slr.png title: "sea-level rise projections for climate scenarios exceeding 2 degrees global average warming" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

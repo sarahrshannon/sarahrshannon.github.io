@@ -17,13 +17,13 @@ To create training and validation data, I visually selected Karez images using f
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/example_train1.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/example_train1.jpg title: "training image of zarez from OrbView-3 satellite" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/example_train2.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/example_train2.jpg title: "training image of qanat from OrbView-3 satellite" class: "img-fluid rounded z-depth-1" %}
     </div> 
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/example_train3.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/example_train3.jpg title: "training image of turpan from OrbView-3 satellite" class: "img-fluid rounded z-depth-1" %}
     </div>     
 </div>
 <div class="caption">
@@ -33,10 +33,10 @@ To create training and validation data, I visually selected Karez images using f
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/my_pts.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/my_pts.png title: "training images karez from OrbView-3 satellite in West of Kandahar, Afghanistan" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/tf_loss.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/tf_loss.jpg title: "TensorFlow loss and accuracy curves" class: "img-fluid rounded z-depth-1" %}
     </div>   
 </div>
 <div class="caption">

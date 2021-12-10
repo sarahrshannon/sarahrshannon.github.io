@@ -9,10 +9,10 @@ category: work
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/lpj_area.bmp title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/lpj_area.bmp title: "dust source areas from Lund-Potstdam-Jena dynamic vegetation model" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/dust_flux.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/dust_flux.png title: "modelled global dust emissions" class: "img-fluid rounded z-depth-1" %}
     </div>   
 </div>
 <div class="caption">
@@ -22,10 +22,10 @@ category: work
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/n_atlantic.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/n_atlantic.png title: "Saharan dust concentrations modelled using TOMCAT " class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/n_atlantic_toms.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/n_atlantic_toms.png title: "TOMS aerosol optical depth over Africa" class: "img-fluid rounded z-depth-1" %}
     </div>   
 </div>
 <div class="caption">

@@ -16,7 +16,7 @@ The aim of the project is to improve estimates of the timing of **peak water** i
         {% responsive_image path: assets/img/naryn_dem_crop.png title: "upper Naryn catchment" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/hru_map_crop.png title: "hru map" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/hru_map_crop.png title: "hydrological response units HRU distribution for the Naryn catchment Kyrgyzstan " class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -24,7 +24,7 @@ The aim of the project is to improve estimates of the timing of **peak water** i
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/naryn_discharge.png title: "uppser Naryn streamflow" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/naryn_discharge.png title: "Modelled streamflow for the Naryn river with observations from GRDC" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
