@@ -7,7 +7,7 @@ permalink: /
 
 profile:
   align: right
-  image: Image00007_greyscale_cropped.png
+  image: Image00003.jpg
   
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
