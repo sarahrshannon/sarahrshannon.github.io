@@ -7,7 +7,7 @@ importance: 2
 category: work
 ---
 
-I have generated global glacier volume loss projections for climate scenarios that exceed 2 degrees global average warming relative to the pre-industrial period. The projections were made by developing a glacier scheme for the JULES land surface model and forcing this with an ensemble of downscaled CMIP5 models.     
+I generated global glacier volume loss projections for climate scenarios that exceed 2 degrees global average warming relative to the pre-industrial period. The projections were made by developing a glacier scheme for the JULES land surface model and forcing this with an ensemble of downscaled CMIP5 models.     
 The work was for the [High-End Climate Impacts and Extremes (HELIX) project](https://helixclimate.eu/). 
 
 

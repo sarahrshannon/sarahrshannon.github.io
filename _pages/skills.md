@@ -19,8 +19,8 @@ order: 3
 | GDAL           | :star: :star: :star: :star:                  |
 | CDO/NCO        | :star: :star: :star: :star:                  |
 | git            | :star: :star: :star:                         |
-| Python         | :star: :star: :star:                         |
 | jekyll         | :star: :star: :star:                         |
-| TensorFlow     | :star: :star: :star:                         |
+| TensorFlow     | :star: :star:                                |
+| Python         | :star: :star:                                |
 
 
