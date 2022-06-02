@@ -18,7 +18,6 @@ I am a climate scientist based at the University of Bristol. My research focuses
 
 I started research as an atmospheric scientist. For my PhD I developed a model to predict the emission and transport of desert dust in the atmosphere. More recently, my research has focused on assessing the risk of glacier lake outburst floods (GLOFs) in Peru and Chile. 
 
-
 <h3>Projects</h3>
 
 [Glacier melting and water security in Central Asia, 2018-2022](https://centralasiawater.blog/)
