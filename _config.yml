@@ -62,15 +62,15 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: #sarahrshannon 
 gitlab_username: # your GitLab user name
 twitter_username: #ShannonClimate
-linkedin_username: #sarah_shannon@yahoo.com
+linkedin_username: sarahrshannon
 scholar_userid: https://scholar.google.com/citations?hl=en&user=lj3rVpQAAAAJ
 orcid_id: #0000-0002-7644-2724
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: #https://www.researchgate.net/profile/Sarah-Shannon-9
+research_gate_profile: Sarah-Shannon-9
 blogger_url: # your blogger URL
-work_url: https://www.bristol.ac.uk/people/person/Sarah-Shannon-e8dd6d37-eb20-4fb9-b6d6-948a2126d138/
+work_url: #https://www.bristol.ac.uk/people/person/Sarah-Shannon-e8dd6d37-eb20-4fb9-b6d6-948a2126d138/
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -254,7 +254,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            false   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
