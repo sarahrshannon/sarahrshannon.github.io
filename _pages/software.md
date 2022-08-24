@@ -8,7 +8,7 @@ order: 3
 ---
 
 <br />
-Developed a degree day snow and glacier melt model for the Dynamic fluxEs and ConnectIvity for Predictions of HydRology ([DECIPHeR](https://gmd.copernicus.org/articles/12/2285/2019/)).   
+Developed a degree day snow and glacier melt model for the Dynamic fluxEs and ConnectIvity for Predictions of HydRology ([DECIPHeR](https://hess.copernicus.org/preprints/hess-2022-51/)).   
 
 
 <div class="row">
