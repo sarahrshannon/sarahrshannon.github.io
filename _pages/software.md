@@ -10,7 +10,7 @@ order: 3
 
 I am currently (December 2022) archiving my code on GitHub at repository [ClimateDataLab](https://github.com/ClimateDataLab).
 
-Below are the main projects I have worked on.  
+Below are past projects I have worked on.  
 <br />
 Developed a degree day snow and glacier melt model for the Dynamic fluxEs and ConnectIvity for Predictions of HydRology DECIPHeR. 
 The model description is in [HESS](https://hess.copernicus.org/preprints/hess-2022-51/) and the code is available on [GitHub](https://github.com/sarahshannon/DECIPHeR-glacier)
