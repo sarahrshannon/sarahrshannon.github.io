@@ -14,7 +14,7 @@ The tunnels are still used today for irrigation and domestic water supply in som
 Access to the tunnel is via a series of well-like vertical shafts which can be seen by satellite as a line of equally spaced circles. 
 
 To create training and validation data, I visually selected Karez images using free 1m satellite imagery from the [OrbView-3](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-commercial-satellites-orbview-3) commercial satellite data (from USGS). I then adapted TensorFlow example code to identify [hot dogs/not hot dogs](https://www.machinecurve.com/index.php/2020/10/20/tutorial-building-a-hot-dog-not-hot-dog-classifier-with-tensorflow-and-keras/) to train and test the CNN. I used 2960 training images and 740 validation images. The training data was augmented using ImageDataGenerator.
-
+The demo code is stored on [gitHub](https://github.com/ClimateDataLab/TensorFlow-karez)
 
 
 <div class="row">
