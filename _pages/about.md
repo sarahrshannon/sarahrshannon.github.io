@@ -14,9 +14,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a climate scientist based at the University of Bristol. My research focuses on developing software to predict how climate change will impact future water availability in glacier and snow-fed catchments in Central Asia. I also develop models to predict sea-level rise from melting glaciers and the Greenland ice sheet.     
+I am a climate scientist based at the University of Bristol. My research focuses on modelling the impacts of climate change on water availability in glaciated catchments in Central Asia. I also model future sea-level rise from melting glaciers and ice sheets.
 
-I started research as an atmospheric scientist. For my PhD I developed a model to predict the emission and transport of desert dust in the atmosphere. More recently, my research has focused on assessing the risk of glacier lake outburst floods (GLOFs) in Peru and Chile. 
+I started research as an atmospheric scientist, developing a model to predict the emissions, transport and removal of dust aerosol in the atmosphere. More recently, my research has focused on assessing the risk of glacier lake outburst floods (GLOFs) in Peru and Chile.
 
 <h3>Projects</h3>
 
