@@ -9,7 +9,7 @@ profile:
   align: right
   image: Image00003.jpg
   
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -18,8 +18,7 @@ I am a climate scientist based at the University of Bristol. My research focuses
 Three common themes underpin my work: 1) writing code to model physical processes 2) calibration and validation of models against past observations, for example remote sensing datasets and 3) running multi-model projections to predict the impacts of climate change under different CO<sub>2</sub> mitigation scenarios.  
 
 I started research as an atmospheric scientist, developing a desert dust model to understand the reasons for high Saharan dust concentrations observed at Barbados during the 1980s. 
-More recently, my research has focused on assessing the links between climate change and glacier lake outburst floods (GLOFs) in Peru and Chile.
-
+More recently, my research has focused on assessing the links between climate change and glacier lake outburst floods (GLOFs) in Peru and Chile. I am also interested in using machine learning to improve climate model predictions.
 
 
 <h3>Projects</h3>
