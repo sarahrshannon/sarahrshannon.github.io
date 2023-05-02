@@ -7,8 +7,8 @@ importance: 3
 category: work
 ---
 
-In the face of climate induced water scarcity, can we learn from the past about ancient water management technologies that might still be useful today? 
-For this reason, I developed a machine learning model to detect the presence of ancient irrigation tunnels from satellite imagery. 
+Climate change is causing water scarcity in many arid regions of the world.  Can we look to ancient water management technologies to help? 
+To explore this, I developed a machine learning model to detect the presence of ancient irrigation tunnels from satellite imagery. 
 The model uses the Keras [TensorFlow](https://www.tensorflow.org/) library to train and validate a convolutional neural network (CNN). 
 
 Karez or Qanat are ancient hand dug irrigation tunnels that have been used for thousands of years to transport groundwater over long distances in semi-arid regions. They are constructed by digging a gentle down sloping tunnel underground so that water can flow under gravity. The technique minimises water loss though evaporation and does not require any electrical pumping of ground water reserves, making the tunnels a sustainable source of water supply.   Air flow over the wells can be used to cool houses and buildings.
@@ -17,9 +17,9 @@ Access to the tunnel is via a series of well-like vertical shafts which can be s
 
 To create training and validation data, I visually selected Karez images using free 1m satellite imagery from the [OrbView-3](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-commercial-satellites-orbview-3) commercial satellite data (from USGS). I then used the TensorFlow library to train and test the image classifier using 2960 training images and 740 validation images. To expand the size of the training data I augmented the images using the Keras ImageDataGenerator function.
 
-A Jupyter notebook containing the code is stored on [gitHub](https://github.com/ClimateDataLab/TensorFlow-karez/blob/main/karez_cnn_build_nb.ipynb)
+A Jupyter notebook containing the code is stored [here](https://github.com/ClimateDataLab/TensorFlow-karez/blob/main/karez_cnn_build_nb.ipynb)
 
-The image classifier works well, detecting the presence of Karez tunnels with a precision of 95%. The next step is to deploy the model to run on multiple satellite tiles. This will enable mapping of the locations of tunnels across multiple countries in Asia.   
+The image classifier works well, detecting the presence of Karez tunnels with a precision of 95%. The next step is to productionise the model to run on multiple satellite tiles. This will enable mapping of the locations of tunnels across multiple countries in Asia.   
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
