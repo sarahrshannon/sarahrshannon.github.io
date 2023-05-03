@@ -6,10 +6,7 @@ img: assets/img/slr_image.jpg
 importance: 2
 category: work
 ---
-
-I generated global glacier volume loss projections for climate scenarios that exceed 2 degrees global average warming relative to the pre-industrial period. The projections were made by developing a glacier scheme for the JULES land surface model and forcing this with an ensemble of downscaled CMIP5 models.     
-The work was for the [High-End Climate Impacts and Extremes (HELIX) project](https://helixclimate.eu/). 
-
+As part of the [High-End Climate Impacts and Extremes (HELIX) project](https://helixclimate.eu/), I generated global glacier volume loss projections for climate scenarios that exceed the 2 degree Paris target. The projections were made by developing a glacier scheme for the JULES land surface model and forcing this with an ensemble of downscaled CMIP5 models.     
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -45,7 +42,8 @@ For the [ice2sea](https://cordis.europa.eu/project/id/226375/reporting) project,
 
 <br />
 <br />
-I contributed JULES glacier volume loss experiments to the [Glacier Model Inter-Comparison Project]( https://www.climate-cryosphere.org/mips/glaciermip) (GlacierMIP2). This was a coordinated intercomparison of global-scale glacier mass change models to foster model improvements and reduce uncertainties in global glacier projections. 
+
+I contributed to the [Glacier Model Inter-Comparison Project]( https://www.climate-cryosphere.org/mips/glaciermip) (GlacierMIP2) by developing and running JULES glacier volume loss experiments. GlacierMIP2 was a coordinated international effort to compare and improve global-scale glacier mass change models to reduce uncertainties in global glacier projections.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
