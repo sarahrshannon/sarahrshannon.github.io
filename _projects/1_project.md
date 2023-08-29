@@ -27,7 +27,7 @@ I used the model to generate projections of future river flow in the highly glac
 </div>
 <div class="caption">
     Observed and calibrated monthly discharge at six gauging stations in the Naryn catchment. Observations are from the Global Data Runoff Centre. 
-    Simulations are selected using multiple performance metrics and the Generalised Likelihood Uncertainty Estimation method (GLUE). Figure from Shannon et al., (2022).  
+    Simulations are selected using multiple performance metrics and the Generalised Likelihood Uncertainty Estimation method (GLUE). Figure from Shannon et al., (2023).  
 </div>
 
 **Bias correction of regional climate modelling projections**
