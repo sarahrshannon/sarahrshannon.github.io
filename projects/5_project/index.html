@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>blog | Sarah Shannon</title>
+<title>machine learning | Sarah Shannon</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="blog" />
+<meta property="og:title" content="machine learning" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Personal website for Sarah Shannon climate scientist expertise in modelling glaciers, river flow and sea-level rise" />
-<meta property="og:description" content="Personal website for Sarah Shannon climate scientist expertise in modelling glaciers, river flow and sea-level rise" />
-<link rel="canonical" href="https://sarahrshannon.github.io/blog/" />
-<meta property="og:url" content="https://sarahrshannon.github.io/blog/" />
+<meta name="description" content="detection of ancient Karez irrigation tunnels" />
+<meta property="og:description" content="detection of ancient Karez irrigation tunnels" />
+<link rel="canonical" href="https://sarahrshannon.github.io/projects/5_project/" />
+<meta property="og:url" content="https://sarahrshannon.github.io/projects/5_project/" />
 <meta property="og:site_name" content="Sarah Shannon" />
-<meta property="og:type" content="website" />
-<link rel="next" href="https://sarahrshannon.github.io/blog/page/2/" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-08-29T18:44:50+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="blog" />
+<meta property="twitter:title" content="machine learning" />
 <meta name="twitter:site" content="@ShannonClimate" />
 <meta name="twitter:creator" content="@ShannonClimate" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Personal website for Sarah Shannon climate scientist expertise in modelling glaciers, river flow and sea-level rise","headline":"blog","url":"https://sarahrshannon.github.io/blog/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-08-29T18:44:50+00:00","datePublished":"2023-08-29T18:44:50+00:00","description":"detection of ancient Karez irrigation tunnels","headline":"machine learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://sarahrshannon.github.io/projects/5_project/"},"url":"https://sarahrshannon.github.io/projects/5_project/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <head>
@@ -31,7 +31,7 @@
   Sarah Shannon
 
 
-  | blog
+  | machine learning
 
 </title>
 <meta name="description" content="Personal website for Sarah Shannon climate scientist | expertise in modelling glaciers, river flow and sea-level rise">
@@ -56,7 +56,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://sarahrshannon.github.io/blog/">
+<link rel="canonical" href="https://sarahrshannon.github.io/projects/5_project/">
 
 
 
@@ -96,8 +96,6 @@
           <!-- Other pages -->
           
           <!---->
-          
-          
           
           
           
@@ -206,119 +204,86 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">machine learning</h1>
+    <p class="post-description">detection of ancient Karez irrigation tunnels</p>
+  </header>
 
+  <article>
+    <p>Climate change is causing water scarcity in many arid regions of the world.  Can we look to ancient technologies to help manage this dwindling resource? To explore this, I developed a machine learning model to detect the presence of ancient irrigation tunnels from satellite imagery. 
+The model uses the Keras <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer">TensorFlow</a> library to train and validate a convolutional neural network (CNN).</p>
 
-  <ul class="post-list">
+<p>Karez or Qanat are ancient hand dug irrigation tunnels that have been used for thousands of years to transport groundwater over long distances in semi-arid regions. They are constructed by digging a gentle down sloping tunnel underground so that water can flow under gravity. The technique minimises water loss though evaporation and does not require any electrical pumping of ground water reserves, making the tunnels a sustainable source of water supply.   Air flow over the wells can be used to cool houses and buildings.
+The tunnels are still used today for irrigation and domestic water supply in some regions of the world, although many have fallen into a state of disrepair. The tunnels are mostly found in countries along the old silk road, particularly in Afghanistan, Iran and Uzbekistan. 
+Access to the tunnel is via a series of well-like vertical shafts which can be seen by satellite as a line of equally spaced circles.</p>
+
+<p>To create training and test data, I visually selected Karez images using free 1m satellite imagery from the <a href="https://www.usgs.gov/centers/eros/science/usgs-eros-archive-commercial-satellites-orbview-3" target="_blank" rel="noopener noreferrer">OrbView-3</a> commercial satellite data (from USGS). I then used the TensorFlow library to train and test the image classifier using 2960 training images and 740 validation images. To expand the size of the training data I augmented the images using the Keras ImageDataGenerator function.</p>
+
+<p>A Jupyter notebook containing the code is stored <a href="https://github.com/ClimateDataLab/TensorFlow-karez/blob/main/karez_cnn_build_nb.ipynb" target="_blank" rel="noopener noreferrer">here</a></p>
+
+<p>The image classifier works well, detecting the presence of Karez tunnels with a precision of 95%. The next step is to productionise the model to run on multiple satellite tiles. This will enable mapping of the locations of tunnels across multiple countries in Asia.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <picture>
     
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/example_train1.jpg" title="training image of zarez from OrbView-3 satellite">
+</picture>
 
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <picture>
     
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/example_train2.jpg" title="training image of qanat from OrbView-3 satellite">
+</picture>
+
+    </div> 
+    <div class="col-sm mt-3 mt-md-0">
+        <picture>
     
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/example_train3.jpg" title="training image of turpan from OrbView-3 satellite">
+</picture>
+
+    </div>     
+</div>
+<div class="caption">
+    Example training images of Karez shafts. Data comes from the OrbView-3 commercial satellite data and has a resolution of 1m resolution.      
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <picture>
     
+    <source media="(max-width: 480px)" srcset="/assets/resized/my_pts-480x328.png"></source>
     
-
-    <li>
-      <h3><a class="post-title" href="/2021/07/04/diagrams.html">a post with diagrams</a>
-      </h3>
-      <p>an example of a blog post with diagrams</p>
-      <p class="post-meta"> 3 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
+    <source media="(max-width: 800px)" srcset="/assets/resized/my_pts-800x547.png"></source>
     
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/my_pts.png" title="training images karez from OrbView-3 satellite in West of Kandahar, Afghanistan">
+</picture>
 
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <picture>
     
-    
-    
-    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/metrics.png" title="TensorFlow loss and accuracy curves">
+</picture>
 
-    <li>
-      <h3><a class="post-title" href="/2021/05/22/distill.html">a distill-style blog post</a>
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3><a class="post-title" href="/sample-posts/external-services/2020/09/28/github-metadata.html">a post with github metadata</a>
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+    </div>   
+</div>
+<div class="caption">
+    Left: Visual selection of training images using an OrbView-3 tile located in Naru Kalay in the West of Kandahar, Afghanistan. Karez in orange, not karez in green. Right: training and validation loss and accuracy. 
 
 
+
+
+
+
+
+
+
+</div>
+
+  </article>
 
 </div>
 
@@ -329,7 +294,7 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2023 Sarah R. Shannon.
+    © Copyright 2023 Sarah R. Shannon.
     
     
     
