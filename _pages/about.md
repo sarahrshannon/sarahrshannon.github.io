@@ -24,7 +24,7 @@ In the past, I have:
 
 I am excited about emerging technologies in earth observation and artificial intelligence. 
 
-If you would like to find out more about my projects, click [here](https://sarahrshannon.github.io/research/) to see a summary of past research projects.
+If you would like to find out more about my projects, click [here](https://sarahrshannon.github.io/research/).
 
 
 <h3>Projects</h3>
