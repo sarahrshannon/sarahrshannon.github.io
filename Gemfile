@@ -15,5 +15,6 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jemoji'
     gem 'unicode_utils'
+    gem 'google-protobuf', '~> 3.21.12'
     gem 'webrick'
 end
