@@ -5,19 +5,19 @@
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="glaciers and ice sheets" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="sea-level rise predictions from glaciers and ice sheets" />
-<meta property="og:description" content="sea-level rise predictions from glaciers and ice sheets" />
+<meta name="description" content="glacier, ice-sheets and sea-level rise" />
+<meta property="og:description" content="glacier, ice-sheets and sea-level rise" />
 <link rel="canonical" href="https://sarahrshannon.github.io/projects/2_project/" />
 <meta property="og:url" content="https://sarahrshannon.github.io/projects/2_project/" />
 <meta property="og:site_name" content="Sarah Shannon" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-09-11T18:14:24+01:00" />
+<meta property="article:published_time" content="2026-09-11T18:53:24+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="glaciers and ice sheets" />
 <meta name="twitter:site" content="@ShannonClimate" />
 <meta name="twitter:creator" content="@ShannonClimate" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-09-11T18:14:24+01:00","datePublished":"2026-09-11T18:14:24+01:00","description":"sea-level rise predictions from glaciers and ice sheets","headline":"glaciers and ice sheets","mainEntityOfPage":{"@type":"WebPage","@id":"https://sarahrshannon.github.io/projects/2_project/"},"url":"https://sarahrshannon.github.io/projects/2_project/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-09-11T18:53:24+01:00","datePublished":"2026-09-11T18:53:24+01:00","description":"glacier, ice-sheets and sea-level rise","headline":"glaciers and ice sheets","mainEntityOfPage":{"@type":"WebPage","@id":"https://sarahrshannon.github.io/projects/2_project/"},"url":"https://sarahrshannon.github.io/projects/2_project/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <head>
@@ -184,11 +184,18 @@
 
   <header class="post-header">
     <h1 class="post-title">glaciers and ice sheets</h1>
-    <p class="post-description">sea-level rise predictions from glaciers and ice sheets</p>
+    <p class="post-description">glacier, ice-sheets and sea-level rise</p>
   </header>
 
   <article>
-    <p>As part of the <a href="https://helixclimate.eu/" target="_blank" rel="noopener noreferrer">High-End Climate Impacts and Extremes (HELIX) project</a>, I generated global glacier volume loss projections for climate scenarios that exceed the 2 degree Paris target. The projections were made by developing a glacier scheme for the JULES land surface model and forcing this with an ensemble of downscaled CMIP5 models.</p>
+    <p>Glaciers and ice sheets are major contributors to sea-level rise. Predicting how quickly they will lose ice requires models that represent the processes controlling surface mass balance and how these respond to a changing climate.
+My work has included developing new glacier and ice-sheet processes for climate models and using them to investigate future ice loss and sea-level rise.</p>
+
+<h3 id="representing-glaciers-in-jules">Representing glaciers in JULES</h3>
+
+<p>As part of the <a href="https://helixclimate.eu/" target="_blank" rel="noopener noreferrer">High-End Climate Impacts and Extremes (HELIX) project</a>, I developed the representation of glaciers within the JULES land-surface model.
+This included introducing <strong>elevated ice tiles</strong>, allowing glaciers at different elevations to be represented within a single model grid cell. This is important in mountainous regions, where climate varies strongly with elevation and glaciers may occupy only a small part of the landscape.
+I then used JULES with an ensemble of climate-model projections to estimate future glacier volume loss under high-end warming scenarios. By the end of the century, the simulations projected global glacier loss equivalent to around 215 mm of sea-level rise, with larger losses possible when uncertainty in the glacier model parameters was included.</p>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -213,32 +220,33 @@
     
     <source media="(max-width: 1400px)" srcset="/assets/resized/jules_slr-1400x1404.png"></source>
     
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/jules_slr.png" title="sea-level rise projections for climate scenarios exceeding 2 degrees global average warming">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/jules_slr.png" title="Sea-level rise projections for climate scenarios exceeding 2 degrees global average warming">
 </picture>
 
     </div>
 </div>
 <div class="caption">
-    Left: Emsemble mean glacier volume loss for High Mountain Asia and high-end temperaure and precipitation changes by the end of the cenury. Right: Multi-model regional sea-level rise projections. Figure from Shannon et al., 2019    
+    Left: Projected glacier volume loss for High Mountain Asia under high-end temperature and precipitation changes. Right: Regional projections of glacier contribution to sea-level rise. Figures from Shannon et al. (2019).
 </div>
 
-<p><br>
-<br></p>
+<h3 id="meltwater-and-the-greenland-ice-sheet">Meltwater and the Greenland ice sheet</h3>
 
-<p>For the <a href="https://cordis.europa.eu/project/id/226375/reporting" target="_blank" rel="noopener noreferrer">ice2sea</a> project, I developed a meltwater lubrication parameterisation for the Greenland ice sheet. The scheme was used by four ice sheet modelling groups to estimate the impact of meltwater-enhanced lubrication on future sea-level rise.</p>
+<p>For the <a href="https://cordis.europa.eu/project/id/226375/reporting" target="_blank" rel="noopener noreferrer">ice2sea</a> project, I developed a parameterisation describing how surface meltwater can affect the movement of the Greenland ice sheet.
+Meltwater can reach the base of the ice sheet and temporarily increase ice flow by reducing friction between the ice and the bed. The parameterisation was implemented in four ice-sheet models to investigate how this process might affect future sea-level rise.
+The experiments showed that although increased surface melting can speed up the ice sheet locally, the resulting additional contribution to sea-level rise is relatively small compared with the direct loss of ice through increased surface melting.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <picture>
     
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/pnas2.png" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/pnas2.png" title="Greenland ice velocity observations">
 </picture>
 
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <picture>
     
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/pnas3.png" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/pnas3.png" title="Effect of meltwater-enhanced lubrication on sea-level rise">
 </picture>
 
     </div>
@@ -247,19 +255,19 @@
     
     <source media="(max-width: 480px)" srcset="/assets/resized/pnas4-480x247.png"></source>
     
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/pnas4.png" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/pnas4.png" title="Additional ice thickness change from enhanced lubrication">
 </picture>
 
     </div>
 </div>
 <div class="caption">
-    Left: Ice velocity observations used to derived a basal sliding scheme. Middle: The effect of meltwater-enhanced lubrication on sea-level rise. Right: Pattern of additional thickness change generated by enhanced lubrication by the CISM 2.0 model. Figures from Shannon et al., 2013.
+    Left: Ice-velocity observations used to develop the basal-sliding parameterisation. Middle: The effect of meltwater-enhanced lubrication on sea-level rise. Right: Additional ice-thickness change produced by enhanced lubrication in the CISM 2.0 ice-sheet model. Figures from Shannon et al. (2013).
 </div>
 
-<p><br>
-<br></p>
+<h3 id="comparing-glacier-models">Comparing glacier models</h3>
 
-<p>I contributed to the <a href="https://www.climate-cryosphere.org/mips/glaciermip" target="_blank" rel="noopener noreferrer">Glacier Model Inter-Comparison Project</a> (GlacierMIP2) by developing and running JULES glacier volume loss experiments. GlacierMIP2 was a coordinated international effort to compare and improve global-scale glacier mass change models to reduce uncertainties in global glacier projections.</p>
+<p>I also contributed to the <a href="https://www.climate-cryosphere.org/mips/glaciermip" target="_blank" rel="noopener noreferrer">Glacier Model Intercomparison Project</a> (GlacierMIP2), an international effort to compare global glacier models and understand the causes of uncertainty in projections of future glacier change.
+I contributed JULES simulations to the model comparison. The study showed that uncertainty in the glacier models is particularly important for projections over the next few decades, while uncertainty in future emissions becomes increasingly important later in the century and dominates global projections by 2100.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -267,15 +275,21 @@
     
     <source media="(max-width: 480px)" srcset="/assets/resized/glaciermip_paper-480x708.png"></source>
     
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/glaciermip_paper.png" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/glaciermip_paper.png" title="Sources of uncertainty in glacier projections">
 </picture>
 
     </div>
-    
 </div>
 <div class="caption">
-     The relative contribution of each source of uncertainty to the total uncertainty of projected specific mass balance rate.  Figure from Marzeion et al., 2020
+    The contribution of different sources of uncertainty to projected glacier mass change. Figure from Marzeion et al. (2020).
 </div>
+
+<h3 id="why-this-matters">Why this matters</h3>
+
+<h3 id="why-this-matters-1">Why this matters</h3>
+
+<p>Sea-level rise is the end result of a chain of processes: changes in the atmosphere affect snowfall and surface melt, which alter glacier and ice sheet mass, and this in turn changes the amount of water entering the ocean.
+Representing these links in models helps us understand which processes matter most, where the main uncertainties come from, and how sea-level rise may change as the climate warms.</p>
 
 
   </article>
