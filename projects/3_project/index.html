@@ -11,13 +11,13 @@
 <meta property="og:url" content="https://sarahrshannon.github.io/projects/3_project/" />
 <meta property="og:site_name" content="Sarah Shannon" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-09-11T19:16:20+01:00" />
+<meta property="article:published_time" content="2026-09-11T19:47:16+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="climate indices" />
 <meta name="twitter:site" content="@ShannonClimate" />
 <meta name="twitter:creator" content="@ShannonClimate" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-09-11T19:16:20+01:00","datePublished":"2026-09-11T19:16:20+01:00","description":"indices for extreme climate change detection (ETCCDI)","headline":"climate indices","mainEntityOfPage":{"@type":"WebPage","@id":"https://sarahrshannon.github.io/projects/3_project/"},"url":"https://sarahrshannon.github.io/projects/3_project/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-09-11T19:47:16+01:00","datePublished":"2026-09-11T19:47:16+01:00","description":"indices for extreme climate change detection (ETCCDI)","headline":"climate indices","mainEntityOfPage":{"@type":"WebPage","@id":"https://sarahrshannon.github.io/projects/3_project/"},"url":"https://sarahrshannon.github.io/projects/3_project/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <head>
@@ -188,9 +188,11 @@
   </header>
 
   <article>
-    <p>Climate models output terabytes of raw temperature and precipitation data at a sub-daily resolution. Climate indices are often used to identify extreme conditions such as drought or intense rainfall from the climate data. <br>
-Here I calculate <a href="http://etccdi.pacificclimate.org/" target="_blank" rel="noopener noreferrer">ETCCDI</a> climate change detection indices for Peru using daily precipitation from the ERA5-back extension (1950-1978) and ERA5 (1979-2019) reanalysis data.  Number of days in year with precipitation &gt; 20mm indicates intense rainfall that could potentially trigger a glacier lake outburst flood (shown purple).
-The code to calculate the climate change detection indices is <a href="https://github.com/ClimateDataLab/etccdi" target="_blank" rel="noopener noreferrer">here</a></p>
+    <p>Climate models and reanalysis datasets contain vast amounts of temperature and precipitation data. Climate indices reduce these data to measures that are easier to interpret, such as the frequency of heavy rainfall, prolonged dry periods or unusually hot days.</p>
+
+<p>I calculated a set of internationally used climate extreme indices for Peru using daily ERA5 reanalysis data from 1950 to 2019.</p>
+
+<p>One example is the number of days each year with more than 20 mm of rainfall. In high mountain regions, intense rainfall can contribute to slope instability and other hazards, and may be relevant to assessing the conditions associated with glacial lake outburst floods.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -208,8 +210,20 @@ The code to calculate the climate change detection indices is <a href="https://g
     </div>
 </div>
 <div class="caption">
-    ETCCDI climate indices calculated using daily reanalysis precipitation. The open source Climate Data Operators (CDO) are used to calculate the indices.   
+    Climate-extreme indices calculated from daily ERA5 precipitation data for Peru.
 </div>
+
+<h3 id="from-raw-climate-data-to-useful-indicators">From raw climate data to useful indicators</h3>
+
+<p>The indices were calculated using the ETCCDI definitions, a widely used set of measures for monitoring changes in climate extremes. I used the open-source Climate Data Operators (CDO) to process the daily reanalysis data and calculate the indices.</p>
+
+<p>The code is available <a href="https://github.com/ClimateDataLab/etccdi" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+<h3 id="why-this-matters">Why this matters</h3>
+
+<p>Extreme events are often more important than changes in the average climate. A small change in mean temperature or rainfall can be accompanied by much larger changes in the frequency or intensity of heatwaves, droughts and heavy rainfall.</p>
+
+<p>Climate indices provide a way to track these changes across large datasets and compare how extremes are changing between regions and over time.</p>
 
   </article>
 

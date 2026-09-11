@@ -5,19 +5,19 @@
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="desert dust" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="modelling emissions and transport of desert dust" />
-<meta property="og:description" content="modelling emissions and transport of desert dust" />
+<meta name="description" content="Modelling changes in Saharan dust emissions and long range transport" />
+<meta property="og:description" content="Modelling changes in Saharan dust emissions and long range transport" />
 <link rel="canonical" href="https://sarahrshannon.github.io/projects/4_project/" />
 <meta property="og:url" content="https://sarahrshannon.github.io/projects/4_project/" />
 <meta property="og:site_name" content="Sarah Shannon" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-09-11T19:16:20+01:00" />
+<meta property="article:published_time" content="2026-09-11T19:47:16+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="desert dust" />
 <meta name="twitter:site" content="@ShannonClimate" />
 <meta name="twitter:creator" content="@ShannonClimate" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-09-11T19:16:20+01:00","datePublished":"2026-09-11T19:16:20+01:00","description":"modelling emissions and transport of desert dust","headline":"desert dust","mainEntityOfPage":{"@type":"WebPage","@id":"https://sarahrshannon.github.io/projects/4_project/"},"url":"https://sarahrshannon.github.io/projects/4_project/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-09-11T19:47:16+01:00","datePublished":"2026-09-11T19:47:16+01:00","description":"Modelling changes in Saharan dust emissions and long range transport","headline":"desert dust","mainEntityOfPage":{"@type":"WebPage","@id":"https://sarahrshannon.github.io/projects/4_project/"},"url":"https://sarahrshannon.github.io/projects/4_project/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <head>
@@ -184,13 +184,23 @@
 
   <header class="post-header">
     <h1 class="post-title">desert dust</h1>
-    <p class="post-description">modelling emissions and transport of desert dust</p>
+    <p class="post-description">Modelling changes in Saharan dust emissions and long range transport</p>
   </header>
 
   <article>
-    <p>Desert dust concentrations measured at Barbados where four times higher in the 1980s relative to the 1960s. My PhD sought to understand why. By developing a dust cycle model, I showed there was an expansion of the Sahara in 1980s relative to 1960s resulting in a doubling of emissions from the Sahel. This alone was not enough to account for the high dust concentrations observed at Barbados. The results added strength to the hypothesis that human induced soil degradation in North Africa may have been responsible for the increase in high dust concentrations observed in Barbados.</p>
+    <p>Dust concentrations measured in Barbados were much higher during the 1980s than in the 1960s. My PhD investigated what caused this increase.</p>
 
-<p>To model the dust cycle model, I coupled offline the Lund-Potsdam-Jena dynamic global vegetation (LPJ-DGVM) model to a dust emissions model and the TOMCAT atmospheric transport model. I used the LPJ-DGVM to calculate time evolving dust source areas. Surface emissions were calculated by simulating the processes of saltation and sandblasting. Dust was transported in the atmosphere by advection, convection, and diffusion.  I removed dust from the atmosphere by adding a dry deposition and sub-cloud scavenging scheme to TOMCAT.</p>
+<p>Large dust storms can lift enormous quantities of mineral dust from North Africa into the atmosphere, where winds can carry it across the Atlantic to the Caribbean.</p>
+
+<p>I developed a model of the desert dust cycle linking vegetation, dust emissions and atmospheric transport. The simulations showed that expansion of the Sahara and Sahel during the 1980s increased dust emissions, but not enough to explain the full rise observed in Barbados.</p>
+
+<p>This supported the idea that other changes in North African land surfaces, including human driven soil degradation, may also have contributed to the increase in dust reaching the Caribbean.</p>
+
+<h3 id="modelling-the-dust-cycle">Modelling the dust cycle</h3>
+
+<p>I used a dynamic vegetation model to estimate how dust-source areas changed over time, then used those results as input to a dust emissions model and the TOMCAT atmospheric transport model.</p>
+
+<p>Dust emissions were calculated from wind-driven saltation and sandblasting, before being transported through the atmosphere. I also added dry deposition and sub cloud scavenging to TOMCAT so that the model could represent how dust was removed from the atmosphere.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -198,7 +208,7 @@
     
     <source media="(max-width: 480px)" srcset="/assets/resized/lpj_area-480x349.bmp"></source>
     
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/lpj_area.bmp" title="dust source areas from Lund-Potstdam-Jena dynamic vegetation model">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/lpj_area.bmp" title="Dust source areas from the Lund-Potsdam-Jena dynamic vegetation model">
 </picture>
 
     </div>
@@ -207,14 +217,18 @@
     
     <source media="(max-width: 480px)" srcset="/assets/resized/dust_flux-480x349.png"></source>
     
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/dust_flux.png" title="modelled global dust emissions">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/dust_flux.png" title="Modelled global dust emissions">
 </picture>
 
     </div>   
 </div>
 <div class="caption">
-    Left: Dust source area calculated using the FPAR and soil moisture simulated by the Lund-Potstdam-Jena dynamic vegetation model. Right: Dust emissions calculated by modelling saltation and sandblasting. 
+    Left: Modelled dust source area derived from vegetation and soil moisture conditions. Right: Dust emissions calculated from wind driven saltation and sandblasting.
 </div>
+
+<h3 id="from-north-africa-to-the-caribbean">From North Africa to the Caribbean</h3>
+
+<p>The atmospheric model reproduced the large scale transport of Saharan dust across the Atlantic, including the strong summer dust plume extending towards the Caribbean.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -222,7 +236,7 @@
     
     <source media="(max-width: 480px)" srcset="/assets/resized/n_atlantic-480x349.png"></source>
     
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/n_atlantic.png" title="Saharan dust concentrations modelled using TOMCAT ">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/n_atlantic.png" title="Saharan dust concentrations modelled using TOMCAT">
 </picture>
 
     </div>
@@ -237,8 +251,14 @@
     </div>   
 </div>
 <div class="caption">
-    Left: Modelled summer and winter dust concentrations. A summer Saharan dust plume is visible. A wet and dry dust deposition scheme was added to the TOMCAT chemical transport model. Right) Observed TOMS aerosol optical depth.   
+    Left: Modelled dust concentrations over the North Atlantic. Right: Satellite observations of aerosol optical depth from TOMS.
 </div>
+
+<h3 id="why-this-matters">Why this matters</h3>
+
+<p>Desert dust links changes at the land surface to the atmosphere and to regions thousands of kilometres downwind. It can also deliver nutrients such as iron and phosphorus to the ocean, which can stimulate phytoplankton growth.</p>
+
+<p>Understanding why dust emissions change requires following that chain from vegetation and soil conditions, through emission and atmospheric transport, to the concentrations and deposition observed far from the source.</p>
 
 
   </article>
